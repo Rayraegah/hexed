@@ -16,7 +16,7 @@ npm install --save-dev hexed
 ```
 
 ### JavaScript
-```
+```javascript
 import hexed from "hexed";
 const newColor = hexed(data); // returns #rrggbb
 ```
