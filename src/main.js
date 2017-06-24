@@ -13,8 +13,6 @@ export default (s: any): string => {
 		? JSON.stringify(s).replace(/\W+/g, "")
 		: s.toString().replace(/\W+/g, "");
 
-	console.log(str);
-
 	const nStr = str.length;
 	const amount = Math.ceil(nStr / SIZE);
 	const add = amount * SIZE - nStr;

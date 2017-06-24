@@ -22,8 +22,6 @@ var main = (function (s) {
 	// Handle objects and arrays, numbers, class, function etc.
 	var str = (typeof s === "undefined" ? "undefined" : _typeof(s)) === "object" ? JSON.stringify(s).replace(/\W+/g, "") : s.toString().replace(/\W+/g, "");
 
-	console.log(str);
-
 	var nStr = str.length;
 	var amount = Math.ceil(nStr / SIZE);
 	var add = amount * SIZE - nStr;
