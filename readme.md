@@ -1,4 +1,6 @@
 # Hexed
+[![Build Status](https://travis-ci.org/Rayraegah/hexed.svg?branch=master)](https://travis-ci.org/Rayraegah/hexed)
+
 Converts anything into a valid hex color.
 
 ## Usage
